@@ -28,14 +28,15 @@
 
 <body>
 
-    <!-- HEADER -->
-    <header>
+<!-- Add your site or application content here -->
+<!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-light bg-primary navbar-expand">
       <div class="container-fluid">
-        <nav class="navbar navbar-light bg-primary navbar-expand">
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="">Accueil</a>
+                <a class="nav-link" href="../index.php">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">Opérations</a>
@@ -44,7 +45,7 @@
                 <a class="nav-link" href="">Statistiques</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Actualités</a>
+                <a class="nav-link" href="../blog.php">Actualités</a>
               </li>
             </ul>
           </div>
@@ -58,21 +59,3 @@
         </section>
     </div>
     </header>
-    <!-- MAIN -->
-    <main>
-   
-    </main>
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/blog.js"></script>
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
-</html>
